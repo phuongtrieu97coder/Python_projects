@@ -1,11 +1,12 @@
-![image](https://img.shields.io/badge/PHP-white?style=for-the-badge&logo=php) ![image](https://img.shields.io/badge/MYSQL-white?style=for-the-badge&logo=mysql) ![image](https://img.shields.io/badge/HTML5-black?style=for-the-badge&logo=html5) ![image](https://img.shields.io/badge/CSS3-black?style=for-the-badge&logo=css3) ![image](https://img.shields.io/badge/Bootstrap-white?style=for-the-badge&logo=bootstrap) ![image](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=javascript) ![image](https://img.shields.io/badge/jQuery-black?style=for-the-badge&logo=jquery) ![image](https://img.shields.io/badge/JSON-black?style=for-the-badge&logo=json)
+# <img src="https://github.com/phuongtrieu97coder/Readme_Content_Structure/assets/82598726/174e2883-2d0b-4d01-8992-32f709b72373" alt="Python" width="100px" height="100px">
 
 
-![image](https://user-images.githubusercontent.com/82598726/181829065-7ec9da96-4fdb-4e42-b650-56fe73e770fb.png)
+![image](https://github.com/phuongtrieu97coder/Python_projects/assets/82598726/19e383e6-169d-428b-8879-766b22b50211)
+
 
 # 1.Purpose:
 
-- This repository contains all the projects that have been made using PHP files that combines PHP and other languages most of the time. 
+- This repository contains all the projects that have been made using Python files that combines Python and other languages most of the time. 
 
 > Projects can very in different sizes. In addition, projects in this repository can exist in other repository.
 
@@ -14,7 +15,7 @@
 
 ### a.Programming languages:
 
-> ![image](https://img.shields.io/badge/PHP-PHP-blueviolet) ![image](https://img.shields.io/badge/HTML-HTML5-orange) ![image](https://img.shields.io/badge/CSS-CSS3-blue) ![image](https://img.shields.io/badge/SASS-SASS-ff69b4) ![image](https://img.shields.io/badge/B-Bootstrap-blueviolet) ![image](https://img.shields.io/badge/W3CSS-W3CSS-green) ![image](https://img.shields.io/badge/JS-JavaScript-yellow) ![image](https://img.shields.io/badge/jQuery-jQuery-black) ![image](https://img.shields.io/badge/A-AngularJS-red) ![image](https://img.shields.io/badge/SQL-SQL-blue) ![image](https://img.shields.io/badge/JSON-{JSON}-black) 
+> ![Static Badge](https://img.shields.io/badge/Python-Python-%233776AB)
 
 ### b.IDE,Software:
 
@@ -25,14 +26,15 @@
 ### c. Database, Cloud Service:
 
 ![image](https://user-images.githubusercontent.com/82598726/181828437-03bf1b40-f35c-4e48-8ebd-127ef3a6f49d.png) ![image](https://user-images.githubusercontent.com/82598726/181828759-13c51469-e35d-44d6-af61-dfff064b7536.png) ![image](https://user-images.githubusercontent.com/82598726/181830075-a40dcdfe-519c-4a5d-90cd-c3eb308f8cce.png)
- ![image](https://user-images.githubusercontent.com/82598726/181828843-3ba0f2e8-a5dc-4268-b646-5b21898e1139.png) ![image](https://user-images.githubusercontent.com/82598726/181828934-4524165b-801b-44a8-97b4-3966d2eb3c93.png)
+ ![image](https://user-images.githubusercontent.com/82598726/181828843-3ba0f2e8-a5dc-4268-b646-5b21898e1139.png) ![image](https://user-images.githubusercontent.com/82598726/181828934-4524165b-801b-44a8-97b4-3966d2eb3c93.png) ![image](https://github.com/phuongtrieu97coder/Readme_Content_Structure/assets/82598726/af834077-9c80-41e0-b713-b1a2734c3acf)
 
 # 3. License: 
-![image](https://github.com/phuongtrieu97coder/PHP_projects/assets/82598726/30a8f5c9-60fd-454b-9027-03a388d6cec6)
+![image](https://github.com/phuongtrieu97coder/Python_projects/assets/82598726/4fe8d062-5b6c-4bd2-bedf-7f5fa0076ba3)
+
 
 MIT License
 
-Copyright (c) 2023 phuongtrieu97coder
+Copyright (c) 2023 Phuong Trieu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
