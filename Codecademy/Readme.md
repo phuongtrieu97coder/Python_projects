@@ -11,7 +11,8 @@
 # Courses list:
 
 https://www.codecademy.com/learn/learn-python-3
-![image](https://github.com/phuongtrieu97coder/Python_projects/assets/82598726/9c5597cf-0ddb-463d-9573-82f4aa10b339)
+
+<a type="button" title="Codecademy_Learn_Python3_Course" href="https://www.codecademy.com/learn/learn-python-3" target="_blank" data-CodecademyLearnPython3CourseButt="CodecademyLearnPython3CourseButt_data"><img src="https://github.com/phuongtrieu97coder/Python_projects/assets/82598726/9c5597cf-0ddb-463d-9573-82f4aa10b339" alt="Codecademy_Learn_Python3_Course" width="600px" height="400px"></a>
 
 
 
