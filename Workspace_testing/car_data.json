@@ -1,0 +1,17 @@
+{
+    "car1": {
+        "model":"Ford-4536",
+        "brand":"Ford",
+        "color":"Red"
+    },
+    "car2": {
+        "model":"Chervolet-4536",
+        "brand":"Chervolet",
+        "color":"Black"
+    },
+    "car3": {
+        "model":"Honda-4536",
+        "brand":"Honda",
+        "color":"Darkgreen"
+    }
+}
