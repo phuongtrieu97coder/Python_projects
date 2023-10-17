@@ -15,7 +15,7 @@
 
 ### a.Programming languages:
 
-> ![Static Badge](https://img.shields.io/badge/Python-Python-%233776AB)
+![Static Badge](https://img.shields.io/badge/Python-Python-%233776AB)
 
 ### b. IDE, Software:
 
