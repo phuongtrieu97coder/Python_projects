@@ -3,6 +3,8 @@
 
 ![image](https://github.com/phuongtrieu97coder/Python_projects/assets/82598726/19e383e6-169d-428b-8879-766b22b50211)
 
+# Python Projects
+
 
 # 1. Purpose:
 
