@@ -14,7 +14,7 @@
 
 
 # 2. College:
-![img](Community_College_District_logo.png)
+![img](Community_College_District_Logo.png)
     
 ![img](San_Diego_Miramar_College_logo.png)
 
