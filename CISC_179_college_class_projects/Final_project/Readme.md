@@ -13,4 +13,5 @@
 ![prompt_img](prompt_img2.png)
 
 # 2. Output:
-![output_img](Output_Final_Project.png)
+![output img1](Output_img1.png)
+![output img2](Output_img2.png)
