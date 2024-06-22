@@ -1,11 +1,12 @@
 import tkinter
 from tkinter import ttk 
 from PIL import Image, ImageTk
-from Table_Find_Stock_Values import list_of_columns
+from Table_Find_Stock_Values import column_heading_name_list
 
 
 class MyGUI:
     def __init__(self):
+
 
         self.tk = tkinter 
         #create main window widget
@@ -78,8 +79,7 @@ class MyGUI:
         self.tree_table["columns"] = ("Column 1","Column 2","Column 3","Column 4","Column 5","Column 6","Column 7","Column 8","Column 9")
     
 
-
-        self.list_of_columns = list_of_columns
+        self.column_heading_name_list = column_heading_name_list
 
 
         #call the Label widget's pack method

@@ -4,17 +4,17 @@ from Table_Find_Stock_Values import find_highest_lowest_stock_values
 
 class Table_Insert_Data_Class(MPM.MyGUI):
 
-    def stylingTabel(self):
+    def stylingTable(self):
 
         # Format the columns
         self.tree_table.column("#0", width=0, stretch=self.tk.NO)
-        for col in range(len(self.list_of_columns)):
+        for col in range(len(self.column_heading_name_list)):
             self.tree_table.column(self.tree_table["columns"][col], anchor=self.tk.W, width=150)
 
         # Create headings
         self.tree_table.heading("#0", text="", anchor=self.tk.W)
-        for col_head in range(len(self.list_of_columns)):
-            self.tree_table.heading(f"Column {col_head+1}",text=self.list_of_columns[col_head], anchor=self.tk.W)
+        for col_head in range(len(self.column_heading_name_list)):
+            self.tree_table.heading(f"Column {col_head+1}",text=self.column_heading_name_list[col_head], anchor=self.tk.W)
 
 
         # Insert data
@@ -25,11 +25,11 @@ class Table_Insert_Data_Class(MPM.MyGUI):
         lowest_val = [list1[2]]
         date_lowest_val = [list1[3]]
 
-        for l in range(1,len(self.list_of_columns)):
-            highest_val.append(f'${float(find_highest_lowest_stock_values(self.list_of_columns[l])[0]):.2f}')
-            date_highest_val.append(find_highest_lowest_stock_values(self.list_of_columns[l])[1])
-            lowest_val.append(f'${float(find_highest_lowest_stock_values(self.list_of_columns[l])[2]):.2f}')
-            date_lowest_val.append(find_highest_lowest_stock_values(self.list_of_columns[l])[3])
+        for l in range(1,len(self.column_heading_name_list)):
+            highest_val.append(f'${float(find_highest_lowest_stock_values(self.column_heading_name_list[l])[0]):.2f}')
+            date_highest_val.append(find_highest_lowest_stock_values(self.column_heading_name_list[l])[1])
+            lowest_val.append(f'${float(find_highest_lowest_stock_values(self.column_heading_name_list[l])[2]):.2f}')
+            date_lowest_val.append(find_highest_lowest_stock_values(self.column_heading_name_list[l])[3])
         self.tree_table.insert("", self.tk.END, values=tuple(highest_val))
         self.tree_table.insert("", self.tk.END, values=tuple(date_highest_val))
         self.tree_table.insert("", self.tk.END, values=tuple(lowest_val))
@@ -38,7 +38,7 @@ class Table_Insert_Data_Class(MPM.MyGUI):
 
     def displayHighLowPrice(self):
        self.value.set(self.insertDataToTable())
-       self.stylingTabel()
+       self.stylingTable()
        self.tree_table.pack() #Display the table in my app
        #return
 

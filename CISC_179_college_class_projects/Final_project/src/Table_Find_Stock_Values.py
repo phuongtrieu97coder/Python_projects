@@ -1,7 +1,7 @@
 from Load_Dow_Jones_Stocks import  get_stock_price_data
 
 # Define the columns
-list_of_columns = ["Stocks"]
+column_heading_name_list = ["Stocks"]
 stock_list_contains_dict_data = get_stock_price_data()
 
 
@@ -13,8 +13,8 @@ stock_first_dict_data = stock_list_contains_dict_data[0]
 for g in stock_first_dict_data.keys():
     list_include_date_key.append(g)
 
-list_of_columns =list_include_date_key[1:]
-list_of_columns.insert(0,"Stocks")
+column_heading_name_list =list_include_date_key[1:]
+column_heading_name_list.insert(0,"Stocks")
 #'Stocks','MMM', 'AXP', 'AAPL', 'BA', 'CAT', 'CVX', 'CSCO', 'KO']
 
 
