@@ -106,13 +106,6 @@ class MyGUI:
 
         tkinter.mainloop()
 
-    def stylingTable(self):
-        return 
-    
-    def insertDataToTable(self):
-        return 
 
-    def displayHighLowPrice(self):
-        return
 
 
