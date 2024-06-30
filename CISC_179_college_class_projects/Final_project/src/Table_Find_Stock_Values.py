@@ -2,6 +2,23 @@ from Load_Dow_Jones_Stocks import  get_stock_price_data
 
 # Define the columns
 column_heading_name_list = ["Stocks"]
+#The purpose of this list is to use across the app
+# in different files to handle 
+# a list data of column heading name
+# like Stocks, MMM, and so on.
+
+# This list would be used to interact with data
+# from Dow_Jones_Stocks_February.csv file later
+# to find highest and lowest value of each stock.
+
+#I must pay attention to the data that was created 
+#after the Python syntax with open() read data from
+#the csv file would be in structure like a list that 
+#contains many dictionaries like [{“Date”:”…”, “MMM”:””},{“Date”:”…”,”MMM”:”””}]. 
+#So, I would need to use some algorithm to loop through this data 
+#and add the properties’ keys to column_heading_name_list in a way
+#that doesn’t contain “Date” element. 
+
 stock_list_contains_dict_data = get_stock_price_data()
 
 
