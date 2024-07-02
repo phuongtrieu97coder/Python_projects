@@ -18,9 +18,9 @@ class MyGUI:
             self.main_window.configure(bg="black")
             
             #! Define frames and activate them
-            self.top_frame = tkinter.Frame()
-            self.mid_frame = tkinter.Frame()
-            self.bottom_frame = tkinter.Frame()
+            self.top_frame = tkinter.Frame(self.main_window)
+            self.mid_frame = tkinter.Frame(self.main_window)
+            self.bottom_frame = tkinter.Frame(self.main_window)
 
             self.top_frame.pack()
             self.mid_frame.pack()
