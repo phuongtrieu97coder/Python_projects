@@ -2,8 +2,7 @@ from tkinter import ttk
 from Table_Find_Stock_Values import column_heading_name_list
 
 class Table_Data:
-    def __init__(self):
-        return 
+   
     def createTable(self,para1):
         try:
            #! Create a style object for ttk widgets
