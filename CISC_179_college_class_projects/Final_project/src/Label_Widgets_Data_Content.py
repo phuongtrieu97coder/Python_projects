@@ -20,7 +20,7 @@ class LabelWidgets_Data:
     def labelWidget2(self,tk,para1):
         try:
            #! create Label widget containing text "Trending now is Dow Jones Stocks" 
-           para1.label2 = tk.Label(para1.mid_frame, 
+           para1.label2 = tk.Label(para1.mid_frame2, 
            text="Trending now is Dow Jones Stocks",width=54,height=2,
            borderwidth=1,relief="solid",bg="red",fg="white",
            font=("Helvetica", 15, "bold"))

@@ -20,17 +20,19 @@ class MyGUI:
             #! Define frames and activate them
             self.top_frame = tkinter.Frame(self.main_window)
             self.mid_frame = tkinter.Frame(self.main_window)
+            self.mid_frame2 = tkinter.Frame(self.main_window)
             self.bottom_frame = tkinter.Frame(self.main_window)
 
             self.top_frame.pack()
             self.mid_frame.pack()
+            self.mid_frame2.pack()
             self.bottom_frame.pack()
         
 
             #! Create and display poster images inside Label widget 
             #! using data from Poster_Img_Data_Content.py
             PosterImgagesData.poster1Func(tkinter,self).pack(side="left")
-            PosterImgagesData.poster2Func(tkinter,self).pack(side="right")
+            PosterImgagesData.poster2Func(tkinter,self).pack(side="left")
 
             
             #! Create a StringVar object to use for the value attribute
@@ -39,10 +41,7 @@ class MyGUI:
             self.value = tkinter.StringVar()
 
 
-            #! Create and style Table widget using data 
-            #!  from Table_Data_Content.py
-            TableData_obj.createTable(self)
-            TableData_obj.stylingTable(tkinter,self)
+           
 
         
             #! Create and activate the Label widgets
@@ -57,6 +56,14 @@ class MyGUI:
             #! I wrote the following code near label widgets above
             #! to make place them next to each other on my app
             HighestLowestStockPrice_Button_Obj.createButton(tkinter,self)
+
+
+
+
+            #! Create and style Table widget using data 
+            #!  from Table_Data_Content.py
+            TableData_obj.createTable(self)
+            TableData_obj.stylingTable(tkinter,self)
 
 
             tkinter.mainloop()
