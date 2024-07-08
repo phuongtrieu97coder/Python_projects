@@ -13,14 +13,14 @@ class HighestLowestStockPrice_Button:
 
             #? This button will activate displayHighLowPrice() method
             #? in Main_Running_Program.py file
-            para1.button1= tk.Button(para1.mid_frame, 
+            para1.button1= tk.Button(para1.mid_frame2, 
             text="Dow Jones Stocks February 2020",width=54,height=2,
             command=para1.displayHighLowPrice,borderwidth=3,
             relief="solid",bg="green",fg="white",
             font=("Helvetica", 15, "bold italic"),cursor=("hand2"))
 
             #? Activate button from Button_Data_Content.py and add hover effect
-            para1.button1.pack(side="right",ipadx=10,ipady=10)
+            para1.button1.pack(side="left",ipadx=10,ipady=10)
             para1.button1.bind("<Enter>", self.on_button_hover)
             para1.button1.bind("<Leave>", self.on_button_leave)
 

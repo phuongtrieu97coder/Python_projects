@@ -7,7 +7,7 @@ class Table_Data:
     def createTable(self,para1):
         try:
            #! Create a style object for ttk widgets
-           para1.style = ttk.Style(para1.main_window)
+           para1.style = ttk.Style(para1.bottom_frame)
 
 
            #! Configure our custom style for the Treeview widget
@@ -22,7 +22,7 @@ class Table_Data:
         
 
            #! Create the Treeview widget with the custom style
-           para1.tree_table = ttk.Treeview(para1.main_window, style="Custom.Treeview")
+           para1.tree_table = ttk.Treeview(para1.bottom_frame, style="Custom.Treeview")
 
            para1.tree_table["columns"] = ("Column 1","Column 2","Column 3","Column 4","Column 5","Column 6","Column 7","Column 8","Column 9")
         

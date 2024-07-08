@@ -139,7 +139,7 @@ class Table_Insert_Data_Class(MyGUI):
           #! Add value to self.value 
           self.value.set(self.insertDataToTable())
           #! Display the table in my app
-          self.tree_table.pack() 
+          self.tree_table.pack(side="top") 
        #? Display an error message if there's any error occurs while displaying the table
        except Exception as e:
           print(f"Display High Low Price Error: {e}.\n"+\
