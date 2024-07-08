@@ -1,6 +1,5 @@
 class HighestLowestStockPrice_Button:
-    def __init__(self):
-        return
+   
 
     def createButton(self,tk,para1):
         #! Remember that self parameter in this method 
