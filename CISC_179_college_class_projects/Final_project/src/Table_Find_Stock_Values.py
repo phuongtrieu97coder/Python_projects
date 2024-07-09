@@ -85,7 +85,7 @@ addDataTo_column_heading_name_list()
 #? the highest stock value, the date of the highest stock value,
 #? the lowest stock value, and the date of the lowest stock value
 #? return data can be 
-#? Ex: (12.69,25.36,74.58,69.23)
+#? Ex: (12.69,"2/3/2020",74.58,"2/13/2020")
 
 def find_highest_lowest_stock_values(stock):
     #! stock parameter is a string value with specific 
