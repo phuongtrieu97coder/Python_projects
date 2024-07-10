@@ -1,5 +1,5 @@
 from PIL import Image, ImageTk
-class PosterImgData_Content():
+class PosterImgData_Content:
     def __init__(self):
         self.posterImgList = ["stock_poster1_img.jpg", "stock_poster2_img.jpg"]
     def poster1Func(self, tk, para2):
