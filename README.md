@@ -1,4 +1,5 @@
-# <img src="https://github.com/phuongtrieu97coder/Readme_Content_Structure/assets/82598726/174e2883-2d0b-4d01-8992-32f709b72373" alt="Python" width="100px" height="100px">
+![image](https://github.com/user-attachments/assets/fbfe367f-fcf2-4553-a250-c84b94a6a2e7)
+
 
 
 ![image](https://github.com/phuongtrieu97coder/Python_projects/assets/82598726/19e383e6-169d-428b-8879-766b22b50211)
